@@ -1,0 +1,12 @@
+@use '../mixins/responsive.scss' as *;
+@use '../functions/image.scss' as *;
+
+.header {
+    background-image: image("mobile/image-hero.jpg");
+
+    @include responsive(desktop) {
+        background-image: image("desktop/image-hero.jpg");
+    }
+
+
+}
