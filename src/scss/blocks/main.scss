@@ -1,1 +1,61 @@
-/* ESTILOS DEL MAIN */
+@use '../mixins/responsive.scss' as *;
+
+.main {
+    padding: 0 2rem;
+
+    @include responsive(desktop) {
+        padding: 10rem;
+    }
+}
+
+.gallery {
+    @include responsive(desktop) {
+        display: grid;
+        grid-template-columns: repeat(4, 16rem);
+        gap: 1.6rem;
+    }
+
+}
+
+.gallery__title {
+    color: black;
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+
+    @include responsive(desktop) {
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+    }
+}
+
+.overlay:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+
+}
+
+.gallery__cell {
+    position: relative;
+    margin-bottom: 1.5rem;
+
+    @include responsive(desktop) {
+        margin-bottom: 0;
+    }
+}
+
+.cell__title {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    max-width: 150px;
+    margin: 0;
+    z-index: 1;
+}
