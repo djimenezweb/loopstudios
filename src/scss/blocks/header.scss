@@ -2,11 +2,24 @@
 @use '../functions/image.scss' as *;
 
 .header {
+    position: relative;
+    height: 650px;
+    padding: 2rem 1.3rem;
     background-image: image("mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 
     @include responsive(desktop) {
-        background-image: image("desktop/image-hero.jpg");
+        padding: 60px 10rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0 100%), image("desktop/image-hero.jpg");
+        background-size: cover;
     }
 
-
+    &__top {
+        @include responsive(desktop) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
 }

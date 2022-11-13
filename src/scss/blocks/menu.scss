@@ -1,0 +1,61 @@
+@use '../mixins/responsive.scss' as*;
+@use '../functions/image.scss' as *;
+
+.menu {
+    display: none;
+
+    @include responsive(desktop) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    &--show {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: left;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        padding-top: 13rem;
+        padding-left: 2rem;
+        gap: 1.5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 650px;
+        width: 100vw;
+        background-color: black;
+    }
+
+    &-icon {
+        position: absolute;
+        top: 2.2rem;
+        right: 1.3rem;
+        z-index: 2;
+
+        @include responsive(desktop) {
+            display: none;
+        }
+    }
+
+    &__link {
+        position: relative;
+    }
+
+    &__link:hover::after {
+        @include responsive(desktop) {
+            content: '';
+            position: absolute;
+            background-color: white;
+            width: 24px;
+            height: 2px;
+            bottom: -12px;
+            left: calc(50% - 12px);
+        }
+    }
+}

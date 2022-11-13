@@ -1,0 +1,16 @@
+@use '../mixins/responsive' as *;
+
+.logo {
+    max-width: 145px;
+
+    @include responsive(desktop) {
+        max-width: 100%;
+    }
+
+    &--menu-show {
+        position: absolute;
+        top: 2rem;
+        left: 1.3rem;
+        z-index: 2;
+    }
+}

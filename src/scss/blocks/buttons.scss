@@ -1,1 +1,25 @@
+@use '../mixins/responsive.scss' as *;
 
+.button {
+    display: block;
+    color: black;
+    padding: 12px 36px;
+    width: 160px;
+    border: 2px solid var(--very-dark-gray);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include responsive(desktop) {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    @include responsive(desktop) {
+        &:hover {
+            color: white;
+            background-color: black;
+        }
+    }
+}
