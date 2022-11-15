@@ -8,13 +8,11 @@ menuIconElement.addEventListener('click', (event) => {
         menuIconElement.src = './assets/images/icon-close.svg';
         menuIconElement.dataset.icon = 'close';
         menuElement.classList.add('menu--show');
-        logoElement.classList.add('logo--menu-show');
     }
     else {
         menuIconElement.src = './assets/images/icon-hamburger.svg';
         menuIconElement.dataset.icon = 'hamburger';
         menuElement.classList.remove('menu--show');
-        logoElement.classList.remove('logo--menu-show');
     }
 }
 )

@@ -434,17 +434,13 @@ body {
 
 .logo {
   max-width: 145px;
+  position: relative;
+  z-index: 10;
 }
 @media screen and (min-width: 1440px) {
   .logo {
     max-width: 100%;
   }
-}
-.logo--menu-show {
-  position: absolute;
-  top: 2rem;
-  left: 1.3rem;
-  z-index: 2;
 }
 
 h1,
