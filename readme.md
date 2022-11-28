@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [Vista en vivo](https://github.com/djimenezchocron/prueba-tecnica-8-loopstudios)
+- [Vista en vivo](https://djimenezchocron.github.io/prueba-tecnica-8-loopstudios/dist/)
 
 ## Descripción 📑
 
