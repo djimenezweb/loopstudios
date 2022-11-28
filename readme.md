@@ -1,4 +1,4 @@
-# Título del proyecto
+# Loopstudios
 
 ![Imagen del proyecto](https://github.com/djimenezchocron/prueba-tecnica-8-loopstudios/blob/main/design/preview-desktop.jpg?raw=true)
 
