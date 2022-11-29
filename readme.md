@@ -1,10 +1,10 @@
 # Loopstudios
 
-![Imagen del proyecto](https://github.com/djimenezchocron/prueba-tecnica-8-loopstudios/blob/main/design/preview-desktop.jpg?raw=true)
+![Imagen del proyecto](https://github.com/djimenezweb/loopstudios/blob/main/design/preview-desktop.jpg?raw=true)
 
 ## Ejemplo en vivo
 
-- [Vista en vivo](https://djimenezchocron.github.io/prueba-tecnica-8-loopstudios/dist/)
+- [Vista en vivo](https://djimenezweb.github.io/loopstudios/dist/)
 
 ## Descripción 📑
 
@@ -22,23 +22,23 @@ Al colocar los títulos me di cuenta de que las imágenes tenían un sombreado p
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+[![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)](https://es.wikipedia.org/wiki/Sass)
 [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
 
 ## Vista previa del proyecto
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto para escritorio](https://github.com/djimenezchocron/prueba-tecnica-8-loopstudios/blob/main/design/desktop-design.jpg?raw=true)
+![Captura del proyecto para escritorio](https://github.com/djimenezweb/loopstudios/blob/main/design/desktop-design.jpg?raw=true)
 
-<img src="https://github.com/djimenezchocron/prueba-tecnica-8-loopstudios/blob/main/design/mobile-design.jpg?raw=true" alt="Captura del proyecto para móvil" width="300px">
+<img src="https://github.com/djimenezweb/loopstudios/blob/main/design/mobile-design.jpg?raw=true" alt="Captura del proyecto para móvil" width="300px">
 
 ## Autor ✒️
 
 **Daniel Jiménez**
 
-- [djimenezchocron@alumnostrazos.net](djimenezchocron@alumnostrazos.net)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- <a href="mailto:djimenezweb@gmail.com">djimenezweb@gmail.com</a>
+- [LinkedIn](https://www.linkedin.com/in/djimenezweb)
 - [Porfolio web](https://tu-dominio.com/)
 
 ## Instalación
