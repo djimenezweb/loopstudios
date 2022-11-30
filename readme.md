@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [Vista en vivo](https://djimenezweb.github.io/loopstudios/dist/)
+- [Vista en vivo](https://djimenezweb.github.io/loopstudios)
 
 ## Descripción 📑
 
